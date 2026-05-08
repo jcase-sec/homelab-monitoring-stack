@@ -4,13 +4,13 @@
 Designed and deployed a monitoring and observability stack within a segmented Proxmox homelab environment.
 
 ## Technologies Used
--Proxmox
--Docker
--Grafana
--Prometheus
--Uptime Kuma
--SNMP Exporter
-pfSense
+- Proxmox
+- Docker
+- Grafana
+- Prometheus
+- Uptime Kuma
+- SNMP Exporter
+-  pfSense
 
 ## Goals
 - Improve infrastructure visibility
