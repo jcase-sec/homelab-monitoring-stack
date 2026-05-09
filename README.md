@@ -43,6 +43,12 @@ The monitoring environment was designed around segmented infrastructure and serv
 - Reverse proxy architecture used for centralized service access
 - VLAN segmentation implemented to reduce blast radius
 
+## Dashboard Preview
+
+![Grafana infrastructure monitoring dashboard](images/grafana-dashboard-overview.png)
+
+High-level infrastructure dashboard displaying network throughput, service availability, CPU utilization, and resource monitoring across the homelab environment.
+
 ## Security Considerations
 - Unprivileged containers utilized where possible
 - Internal-only service exposure model
