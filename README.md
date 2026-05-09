@@ -37,21 +37,14 @@ The monitoring environment was designed around segmented infrastructure and serv
 - SNMP Exporter for network device telemetry
 - pfSense-based VLAN segmentation
 
-### Monitoring Goals
-- Infrastructure visibility
-- Resource utilization tracking
-- Network device monitoring
-- Service uptime validation
-- Operational observability
-
 ### Network Design Considerations
-- Monitoring services isolated within dedicated server infrastructure
+- Monitoring services isolated within dedicated infrastructure
 - Internal-only access model
-- Reverse proxy architecture for centralized service access
-- Segmented VLAN approach to reduce blast radius
+- Reverse proxy architecture used for centralized service access
+- VLAN segmentation implemented to reduce blast radius
 
 ## Security Considerations
-- Services segmented across VLANS
-- Internal-only service exposure
-- Reverse proxy architecture utilized for centralized access
-- Unprivileged container deployment strategy
+- Unprivileged containers utilized where possible
+- Internal-only service exposure model
+- Segmented network architecture implemented for service isolation
+- Sensitive infrastructure information intentionally excluded from repository documentation
