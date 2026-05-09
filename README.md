@@ -47,7 +47,7 @@ The monitoring environment was designed around segmented infrastructure and serv
 
 ![Grafana infrastructure monitoring dashboard](images/grafana-dashboard-overview.png)
 
-High-level infrastructure dashboard displaying network throughput, service availability, CPU utilization, and resource monitoring across the homelab environment.
+- High-level infrastructure dashboard displaying network throughput, service availability, CPU utilization, and resource monitoring across the homelab environment.
 
 ## Security Considerations
 - Unprivileged containers utilized where possible
