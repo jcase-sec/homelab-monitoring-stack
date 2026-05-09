@@ -54,3 +54,11 @@ The monitoring environment was designed around segmented infrastructure and serv
 - Internal-only service exposure model
 - Segmented network architecture implemented for service isolation
 - Sensitive infrastructure information intentionally excluded from repository documentation
+
+## Lessons Learned
+
+- HTTP(S) monitoring provides more meaningful validation than ICMP checks alone
+- Monitoring architecture becomes increasingly important as infrastructure scales
+- SNMP telemetry requires both device-side configuration and proper inter-VLAN firewall rules
+- Service isolation improves operational clarity and simplifies troubleshooting
+- Dashboard organization and naming conventions become critical as monitored services grow
